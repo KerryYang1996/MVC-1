@@ -6,10 +6,13 @@
 #app2 #tab-bar > li {
   border: 1px solid grey;
   width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #app2 #tab-bar > li.selected {
-  background-color: blueviolet;
-  color: red;
+  background-color: blue;
+  color: white;
 }
 #app2 #tab-content {
 }
@@ -18,4 +21,5 @@
 }
 #app2 #tab-content > li.active {
   display: block;
+  margin: 18vw 20vw;
 }

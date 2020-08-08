@@ -6,6 +6,8 @@
   margin-left: 10vw;
   width: 10vw;
   height: 10vh;
+  border-radius: 50%;
+  background: yellow;
   /* 显示是个长方形，这是因为页面本身是长方形，所以他的十分之一也是同样的形状 */
   transition: transform 1s;
 }

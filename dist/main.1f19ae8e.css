@@ -25,11 +25,33 @@ body > .page > section {
 #app1 {
   width: 50vw;
   height: 50vh;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #app1 .output {
+  border: 1px solid grey;
+  width: 12vw;
+  height: 10vh;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
-#app1 .actions {
+#app1 .actions > button {
+    
+    margin: 10px;
+    width:5vw;
+    height: 5vh;
+    border-radius: 10%;
 }
+#app1 .output#number{
+    
+  }
+};
 
 #app2 {
 }
@@ -39,10 +61,13 @@ body > .page > section {
 #app2 #tab-bar > li {
   border: 1px solid grey;
   width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #app2 #tab-bar > li.selected {
-  background-color: blueviolet;
-  color: red;
+  background-color: blue;
+  color: white;
 }
 #app2 #tab-content {
 }
@@ -51,6 +76,7 @@ body > .page > section {
 }
 #app2 #tab-content > li.active {
   display: block;
+  margin: 18vw 20vw;
 }
 
 #app3 {
@@ -61,6 +87,8 @@ body > .page > section {
   margin-left: 10vw;
   width: 10vw;
   height: 10vh;
+  border-radius: 50%;
+  background: yellow;
   /* 显示是个长方形，这是因为页面本身是长方形，所以他的十分之一也是同样的形状 */
   transition: transform 1s;
 }

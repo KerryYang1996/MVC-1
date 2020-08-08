@@ -1,8 +1,30 @@
 #app1 {
   width: 50vw;
   height: 50vh;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #app1 .output {
+  border: 1px solid grey;
+  width: 12vw;
+  height: 10vh;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
-#app1 .actions {
+#app1 .actions > button {
+    
+    margin: 10px;
+    width:5vw;
+    height: 5vh;
+    border-radius: 10%;
 }
+#app1 .output#number{
+    
+  }
+};
